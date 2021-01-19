@@ -1049,3 +1049,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.19-19.39.54:564][351]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.01.19-19.39.54:661][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
 [2021.01.19-19.39.54:708][352]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B21FAD4F9-4E46-59CF-9B7D-F6A6A0962309%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=c67f4e1941c357bc35f0b689910415fc%7C610ca975281043c1828d80a6f8341e1b%7Cceb04daf-6fdf-4bea-ba44-4551d4ff668e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2be77ecfeb0 [can pipeline])
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.87.152.136) port 443 (#0))
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.01.19-19.49.46:116][678]LogHttp: Warning: 000002BEC0D7CF00: libcurl info message cache 7 (Closing connection 0)
+[2021.01.19-19.49.46:117][678]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B21FAD4F9-4E46-59CF-9B7D-F6A6A0962309%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=c67f4e1941c357bc35f0b689910415fc%7C610ca975281043c1828d80a6f8341e1b%7Cceb04daf-6fdf-4bea-ba44-4551d4ff668e&AppEnvironment=datacollector-binary&UploadType=eteventstream
